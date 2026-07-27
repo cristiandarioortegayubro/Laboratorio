@@ -294,35 +294,27 @@
 # MAGIC
 # MAGIC #### 🔹 Unidad 1: Análisis de Datos
 # MAGIC * **Teoria/**: Material teórico sobre entornos cloud, NumPy y Pandas
-# MAGIC * **Practicas/**: Ejercicios prácticos de manipulación de datos
+# MAGIC * **Practicas/**: 
+# MAGIC   * **TP01 - Configuración Cloud y Almacenamiento**: Configurar el entorno Databricks y gestionar archivos
+# MAGIC   * **TP02 - Manipulación Programática y Exploración**: Transformación de datos con Pandas y SQL
 # MAGIC
 # MAGIC #### 🔹 Unidad 2: Visualización de Datos
 # MAGIC * **Teoria/**: Material teórico sobre Plotly Express y visualizaciones
-# MAGIC * **Practicas/**: Ejercicios prácticos de creación de gráficos y dashboards
+# MAGIC * **Practicas/**:
+# MAGIC   * **TP03 - Perfilado de Datos**: Análisis exploratorio y profiling de datasets
+# MAGIC   * **TP04 - Dashboards Interactivos**: Creación de paneles interactivos con Plotly
 # MAGIC
 # MAGIC #### 🔹 Unidad 3: Modelado de Datos
 # MAGIC * **Teoria/**: Material teórico sobre agregación y Scikit-learn
-# MAGIC * **Practicas/**: Ejercicios prácticos de modelado predictivo
+# MAGIC * **Practicas/**:
+# MAGIC   * **TP05 - Estructuración y Agregación**: Tablas estructuradas y agregaciones
+# MAGIC   * **TP06 - Feature Engineering y Modelado**: Ingeniería de características y modelado predictivo
 # MAGIC
 # MAGIC #### 🔹 Unidad 4: Proyectos Integradores
-# MAGIC * **Proyecto-Final/**: Espacio para el desarrollo del proyecto final integrador
+# MAGIC * **TP07 - Pipeline Integrador**: Pipeline completo de análisis de datos
+# MAGIC * **TP08 - Proyecto Final**: Proyecto final integrador
 # MAGIC
-# MAGIC #### ✅ Trabajos Prácticos
-# MAGIC
-# MAGIC Cada TP tiene su propia carpeta con:
-# MAGIC * Enunciado del trabajo práctico
-# MAGIC * Notebook de desarrollo
-# MAGIC * Datos necesarios (si aplica)
-# MAGIC * Soluciones propuestas
-# MAGIC
-# MAGIC 1. **TP01-Configuracion-Cloud**: Configuración del entorno Databricks
-# MAGIC 2. **TP02-Manipulacion-Programatica**: Transformación de datos con Pandas
-# MAGIC 3. **TP03-Perfilado-de-Datos**: Análisis exploratorio y profiling
-# MAGIC 4. **TP04-Dashboards**: Creación de paneles interactivos
-# MAGIC 5. **TP05-Estructuracion-Agregacion**: Tablas y agregaciones
-# MAGIC 6. **TP06-Feature-Engineering-Modelado**: Ingeniería de características y ML
-# MAGIC 7. **TP07-Pipeline-Integrador**: Pipeline completo de datos
-# MAGIC 8. **TP08-Proyecto-Final**: Proyecto final integrador
+# MAGIC > **📌 Nota Importante**: Cada trabajo práctico está ubicado dentro de la carpeta `Practicas/` de su unidad correspondiente, facilitando la organización por temas y siguiendo la estructura pedagógica del curso. Los TPs se desarrollan progresivamente a medida que se avanza en cada unidad.
 # MAGIC
 # MAGIC #### 📂 Datasets
 # MAGIC Contiene todos los datasets utilizados en el curso, principalmente:
