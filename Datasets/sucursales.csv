@@ -1,4 +1,4 @@
-sucursal_id,nombre,direccion,zona,fecha_apertura,metros_cuadrados,empleados,tiene_cafeteria
-1,Espiga Dorada - Centro,"Av. San Martín 1234, Mendoza",Centro,2020-03-15,120,8,True
-2,Espiga Dorada - Guaymallén,"Ruta 40 Km 5, Guaymallén",Este,2021-06-20,150,10,True
-3,Espiga Dorada - Godoy Cruz,"Av. San Francisco de Asis 567, Godoy Cruz",Sur,2022-11-10,100,6,False
+sucursal_id,nombre,direccion,zona,latitud,longitud,fecha_apertura,metros_cuadrados,empleados,tiene_cafeteria,h3_index
+1,Espiga Dorada - Centro,"Av. San Martín 1234, Mendoza",Centro,-32.8895,-68.8458,2020-03-15,120,8,True,89b2eea1bd3ffff
+2,Espiga Dorada - Guaymallén,"Ruta 40 Km 5, Guaymallén",Este,-32.9,-68.81,2021-06-20,150,10,True,89b2eeae44bffff
+3,Espiga Dorada - Godoy Cruz,"Av. San Francisco de Asis 567, Godoy Cruz",Sur,-32.92,-68.87,2022-11-10,100,6,False,89b2eeaf0d3ffff

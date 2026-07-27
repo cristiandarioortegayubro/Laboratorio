@@ -32,13 +32,99 @@ Laboratorio/
 │   │   └── Teoría - Modelado de Datos.ipynb          (8 celdas, 28K)
 │   └── TP03-TP06/                                    (múltiples notebooks)
 │
-└── Unidad-04-Proyectos-Integradores/
-    ├── Teoria/
-    │   └── Teoría - Proyectos Integradores.ipynb     (10 celdas, 56K)
-    └── Proyecto-Final/
-        ├── TP07 - Pipeline Integrador.ipynb
-        └── TP08 - Proyecto Final.ipynb
+├── Unidad-04-Proyectos-Integradores/
+│   ├── Teoria/
+│   │   └── Teoría - Proyectos Integradores.ipynb     (10 celdas, 56K)
+│   └── Proyecto-Final/
+│       ├── TP07 - Pipeline Integrador.ipynb
+│       └── TP08 - Proyecto Final.ipynb
+│
+└── Material-Complementario/                          ⭐ NUEVO
+    ├── 01-Optimizacion-Hiperparametros/              ✅ COMPLETO
+    │   ├── Teoría - Optimización de Hiperparámetros con Optuna.ipynb
+    │   └── Práctica - Optimización con Optuna.ipynb
+    ├── 02-Validacion-Cruzada-Avanzada/               📅 Planificado
+    ├── 03-Seleccion-Caracteristicas/                 📅 Planificado
+    ├── 04-Interpretabilidad-Modelos/                 📅 Planificado
+    ├── 05-AutoML-y-Feature-Store/                    📅 Planificado
+    └── 06-MLflow-Tracking/                           📅 Planificado
 ```
+
+---
+
+## 🎯 Material Complementario (Nuevo)
+
+Sección dedicada a **temas avanzados** que profundizan conceptos del curso principal. Cada módulo incluye:
+- 📖 **Notebook de Teoría**: Conceptos, comparaciones, mejores prácticas
+- 💻 **Notebook Práctico**: Ejercicios resueltos con el dataset de la panadería
+
+### ✅ Módulos Disponibles
+
+#### 01. Optimización de Hiperparámetros con Optuna
+**Estado**: ✅ Completo (2 notebooks, 31 celdas)
+
+**Contenido teórico**:
+- Diferencia entre parámetros e hiperparámetros
+- Métodos tradicionales: Grid Search y Random Search
+- Introducción a Optuna (búsqueda bayesiana con TPE)
+- Técnicas avanzadas: Pruning automático, paralelización, persistencia
+- Visualizaciones de optimización (historia, importancia, slice plots)
+- Mejores prácticas y casos de uso
+
+**Contenido práctico**:
+- Ejercicio 1: Optimizar Gradient Boosting Regressor
+- Ejercicio 2: Optimización multi-objetivo (precisión vs. velocidad)
+- Ejercicio 3: Persistencia en base de datos SQLite
+- Ejercicio 4: Optimización con features geoespaciales H3
+- Comparación de resultados entre modelos
+- Feature importance con datos espaciales
+
+**Por qué es importante**:
+- Mejora significativa en rendimiento de modelos ML
+- Ahorro de tiempo vs. métodos tradicionales
+- Integración con contenido geoespacial H3 del curso
+- Preparación para workflows profesionales de ML
+
+---
+
+### 📅 Módulos Planificados
+
+#### 02. Validación Cruzada Avanzada
+- Stratified K-Fold para datos desbalanceados
+- Time Series Cross-Validation
+- Group K-Fold (evitar data leakage)
+- Leave-One-Out CV
+- Validación espacial (split por zonas geográficas)
+
+#### 03. Selección de Características
+- Filter methods (correlación, chi-squared, mutual information)
+- Wrapper methods (RFE - Recursive Feature Elimination)
+- Embedded methods (Lasso, Ridge, feature importance)
+- SHAP values para selección
+- Selección con features espaciales
+
+#### 04. Interpretabilidad de Modelos
+- SHAP (SHapley Additive exPlanations)
+- LIME (Local Interpretable Model-agnostic Explanations)
+- Partial Dependence Plots (PDP)
+- Feature Importance global y local
+- Interpretabilidad de features espaciales
+
+#### 05. AutoML y Feature Store
+- AutoML con H2O.ai
+- AutoML con PyCaret
+- Databricks Feature Store
+- Feature engineering automatizado
+- MLflow integration para tracking
+
+#### 06. MLflow Tracking y Model Registry
+- Logging de experimentos y métricas
+- Comparación de runs
+- Model Registry de Databricks
+- Versionamiento de modelos
+- Deployment y A/B testing
+
+---
 
 ## 📚 Contenido por Unidad
 
