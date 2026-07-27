@@ -1,6 +1,6 @@
 # 📊 Laboratorio (Herramientas) - Universidad del Aconcagua
 
-Proyecto educativo completo para la materia **Laboratorio (Herramientas)** de la carrera de **Ciencia de Datos** en la Universidad del Aconcagua, Mendoza, Argentina.
+Material educativo completo para la materia **Laboratorio (Herramientas)** de la carrera **Licenciatura en Analítica de Negocios**, de la **Facultad de Ciencias Económicas y Jurídicas**, en la Universidad del Aconcagua, Mendoza, Argentina.
 
 ## 🎯 Descripción
 
@@ -154,8 +154,9 @@ Laboratorio/
 ## 👥 Equipo Docente
 
 - **Profesor**: Cristian Dario Ortega Yubro
+- **Carrera**: Licenciatura en Analítica de Negocios
+- **Facultad**: Ciencias Económicas y Jurídicas
 - **Universidad**: Universidad del Aconcagua
-- **Carrera**: Licenciatura en Ciencia de Datos
 - **Ubicación**: Mendoza, Argentina
 
 ---
@@ -219,6 +220,8 @@ Este material educativo es de uso libre para fines académicos. Se solicita menc
 
 Para consultas sobre el curso:
 - **Email**: cortega@uda.edu.ar
+- **Carrera**: Licenciatura en Analítica de Negocios
+- **Facultad**: Ciencias Económicas y Jurídicas
 - **Institución**: Universidad del Aconcagua
 - **GitHub**: [@cristiandarioortegayubro](https://github.com/cristiandarioortegayubro)
 
