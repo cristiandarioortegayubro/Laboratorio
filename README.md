@@ -151,15 +151,6 @@ Laboratorio/
 
 ---
 
-## 👥 Equipo Docente
-
-- **Profesor**: Cristian Dario Ortega Yubro
-- **Carrera**: Licenciatura en Analítica de Negocios
-- **Facultad**: Ciencias Económicas y Jurídicas
-- **Universidad**: Universidad del Aconcagua
-- **Ubicación**: Mendoza, Argentina
-
----
 
 ## 📊 Dataset Principal
 
