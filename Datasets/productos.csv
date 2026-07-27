@@ -1,0 +1,46 @@
+producto_id,nombre,categoria,precio_unitario,costo_unitario,stock_minimo,es_saludable,margen_porcentaje
+1,Pan Francés,Pan,800,400,50,False,50.0
+2,Pan Integral,Pan,950,475,30,True,50.0
+3,Pan de Molde,Pan,1200,600,20,False,50.0
+4,Pan de Campo,Pan,1000,500,15,False,50.0
+5,Pan de Viena,Pan,850,425,40,False,50.0
+6,Pan Gallego,Pan,1100,550,25,False,50.0
+7,Baguette,Pan,900,450,35,False,50.0
+8,Pan de Salvado,Pan,1050,525,20,True,50.0
+9,Pan de Centeno,Pan,1150,575,15,True,50.0
+10,Pan Ciabatta,Pan,950,475,20,False,50.0
+11,Pan de Ajo,Pan,750,375,30,False,50.0
+12,Pan Pita,Pan,600,300,25,False,50.0
+13,Pan Hamburguesa,Pan,500,250,40,False,50.0
+14,Pan Pancho,Pan,450,225,40,False,50.0
+15,Flauta,Pan,800,400,30,False,50.0
+16,Medialuna Manteca,Facturas,350,140,100,False,60.0
+17,Medialuna Grasa,Facturas,280,112,120,False,60.0
+18,Bola de Fraile,Facturas,400,160,50,False,60.0
+19,Canon,Facturas,350,140,60,False,60.0
+20,Vigilante,Facturas,380,152,40,False,60.0
+21,Sacramento,Facturas,380,152,40,False,60.0
+22,Churros,Facturas,250,100,80,False,60.0
+23,Biscuit,Facturas,320,128,60,False,60.0
+24,Cremona,Facturas,400,160,30,False,60.0
+25,Palmerita,Facturas,330,132,50,False,60.0
+26,Fosforito,Facturas,280,112,60,False,60.0
+27,Facturas Surtidas,Facturas,3500,1400,20,False,60.0
+28,Torta de Chocolate,Tortas,8500,5100,5,False,40.0
+29,Torta de Frutilla,Tortas,9000,5400,5,False,40.0
+30,Torta Rogel,Tortas,9500,5700,4,False,40.0
+31,Torta de Coco,Tortas,8000,4800,4,False,40.0
+32,Lemon Pie,Tortas,7500,4500,3,False,40.0
+33,Torta Selva Negra,Tortas,10000,6000,3,False,40.0
+34,Cheesecake,Tortas,9500,5700,4,False,40.0
+35,Tiramisú,Tortas,11000,6600,3,False,40.0
+36,Café Espresso,Bebidas,800,280,30,False,65.0
+37,Café con Leche,Bebidas,950,332,40,False,65.05
+38,Té,Bebidas,600,210,30,True,65.0
+39,Jugo Natural,Bebidas,1200,420,20,True,65.0
+40,Agua Mineral,Bebidas,500,175,50,True,65.0
+41,Sandwich Miga,Otros,2500,1125,30,False,55.0
+42,Empanadas,Otros,800,360,40,False,55.0
+43,Pizza Porción,Otros,1500,675,25,False,55.0
+44,Alfajor,Otros,650,292,50,False,55.08
+45,Galletitas,Otros,900,405,40,False,55.0

@@ -1,0 +1,4 @@
+sucursal_id,nombre,direccion,zona,fecha_apertura,metros_cuadrados,empleados,tiene_cafeteria
+1,Espiga Dorada - Centro,"Av. San Martín 1234, Mendoza",Centro,2020-03-15,120,8,True
+2,Espiga Dorada - Guaymallén,"Ruta 40 Km 5, Guaymallén",Este,2021-06-20,150,10,True
+3,Espiga Dorada - Godoy Cruz,"Av. San Francisco de Asis 567, Godoy Cruz",Sur,2022-11-10,100,6,False
