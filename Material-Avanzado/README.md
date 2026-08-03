@@ -1,4 +1,4 @@
-# 📚 Material Complementario - Laboratorio (Herramientas)
+# 📚 Material Avanzado - Laboratorio (Herramientas)
 
 ## 🎯 Propósito
 
