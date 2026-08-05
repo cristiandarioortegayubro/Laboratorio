@@ -6,123 +6,116 @@ Material educativo completo para la materia **Laboratorio (Herramientas)** de la
 
 Este repositorio contiene material teórico y práctico para aprender análisis de datos, visualización, modelado y proyectos integradores usando **Databricks** como plataforma unificada de datos y machine learning.
 
+## 📊 Estadísticas del Curso
+
+| Métrica | Cantidad |
+|---------|----------|
+| **Unidades temáticas** | 4 |
+| **Trabajos Prácticos** | 8 (TP01-TP08) |
+| **Notebooks de Teoría** | 4 (uno por unidad) |
+| **Material Complementario** | 16+ módulos avanzados |
+| **Archivos de Datos (CSV)** | 5 archivos |
+| **Registros totales** | ~170,000 (ventas + detalles + clientes + productos + sucursales) |
+| **Duración estimada** | 60-80 horas (curso principal + complementario) |
+| **Nivel** | Intermedio a Avanzado |
+
+## ✨ Características Destacadas
+
+🎯 **Configuración Portable**: Todos los notebooks usan rutas dinámicas y detección automática de usuario. Funcionan sin modificación en cualquier workspace de Databricks.
+
+🗺️ **Análisis Geoespacial**: Uso extensivo de H3 (Uber's Hexagonal Hierarchical Spatial Index) para clustering espacial, agregaciones por zona, y visualizaciones de mapas.
+
+📊 **Datasets Realistas**: 170,000+ registros de ventas de panadería con 5 tablas relacionadas, geolocalización real de clientes y sucursales, ideal para casos de uso empresariales.
+
+🧠 **Material Complementario Extenso**: 16+ módulos opcionales avanzados por unidad (Plotly, Ensemble Methods, Redes Neuronales, MLflow, CI/CD).
+
+📝 **Documentación Pedagógica**: Cada celda incluye comentarios explicativos detallados, referencias a conceptos teóricos, y mejores prácticas.
+
+🎓 **Proyecto Final Integrador**: TP08 aplica todo lo aprendido en un pipeline completo Bronze-Silver-Gold con modelo ML, dashboards y documentación profesional.
+
 ## 🏗️ Estructura del Proyecto
 
-El curso está organizado en **4 unidades temáticas**, cada una con:
-- 📖 **Notebook de Teoría** (`.ipynb`): Fundamentos conceptuales y mejores prácticas
+El curso está organizado en **4 unidades temáticas** + **material complementario avanzado**, cada una con:
+- 📖 **Notebooks de Teoría** (`.ipynb`): Fundamentos conceptuales y mejores prácticas
 - 💻 **Trabajos Prácticos** (`.ipynb`): Ejercicios hands-on con datasets reales
+- 🚀 **Material Complementario**: Temas avanzados opcionales por unidad
 
 ```
 Laboratorio/
-├── Programa del Curso/
+├── 00 - Programa del Curso/
 │   └── Programa Completo.ipynb
 │
-├── Unidad-01-Analisis-de-Datos/
-│   ├── Teoria/
-│   │   └── Teoría - Análisis de Datos.ipynb          (9 celdas, 18K)
-│   └── TP01 - Introducción a Databricks.ipynb
+├── 01 - Unidad-01-Analisis-de-Datos/
+│   ├── 01 - Teoria/
+│   │   └── Teoría - Análisis de Datos.ipynb
+│   ├── 02 - Practicas/
+│   │   ├── TP01 - Configuración Cloud y Almacenamiento.ipynb
+│   │   └── TP02 - Análisis Exploratorio y Limpieza.ipynb
+│   └── 03 - Material-Complementario/
+│       ├── README-Material-Complementario-Unidad-01.ipynb
+│       └── (módulos avanzados opcionales)
 │
-├── Unidad-02-Visualizacion-de-Datos/
-│   ├── Teoria/
-│   │   └── Teoría - Visualización de Datos.ipynb     (9 celdas, 21K)
-│   └── TP02-TP06/                                    (múltiples notebooks)
+├── 02 - Unidad-02-Visualizacion-de-Datos/
+│   ├── 01 - Teoria/
+│   │   └── Teoría - Visualización de Datos.ipynb
+│   ├── 02 - Practicas/
+│   │   ├── TP03 - Perfilado de Datos.ipynb
+│   │   └── TP04 - Agregaciones y Geoespacial.ipynb
+│   └── 03 - Material-Complementario/
+│       ├── README-Material-Complementario-Unidad-02.ipynb
+│       ├── 01-Teoria-Visualizaciones-Interactivas-Plotly.ipynb
+│       ├── 01-Practica-Visualizaciones-Interactivas-Plotly.ipynb
+│       └── (3 módulos adicionales: Dashboards, Storytelling, Geoespacial)
 │
-├── Unidad-03-Modelado-de-Datos/
-│   ├── Teoria/
-│   │   └── Teoría - Modelado de Datos.ipynb          (8 celdas, 28K)
-│   └── TP03-TP06/                                    (múltiples notebooks)
+├── 03 - Unidad-03-Modelado-de-Datos/
+│   ├── 01 - Teoria/
+│   │   └── Teoría - Modelado de Datos.ipynb
+│   ├── 02 - Practicas/
+│   │   ├── TP05 - Estructuración y Agregación.ipynb
+│   │   └── TP06 - Feature Engineering y ML.ipynb
+│   └── 03 - Material-Complementario/
+│       ├── README-Material-Complementario-Unidad-03.ipynb
+│       └── (4 módulos: Ensemble Methods, Redes Neuronales, Series Temporales, NLP)
 │
-├── Unidad-04-Proyectos-Integradores/
-│   ├── Teoria/
-│   │   └── Teoría - Proyectos Integradores.ipynb     (10 celdas, 56K)
-│   └── Proyecto-Final/
-│       ├── TP07 - Pipeline Integrador.ipynb
-│       └── TP08 - Proyecto Final.ipynb
+├── 04 - Unidad-04-Proyectos-Integradores/
+│   ├── 01 - Teoria/
+│   │   └── Teoría - Proyectos Integradores.ipynb
+│   ├── 02 - Practicas/
+│   │   ├── TP07 - Pipeline Bronze-Silver-Gold.ipynb
+│   │   └── TP08 - Proyecto Final Integrador.ipynb
+│   └── 03 - Material-Complementario/
+│       ├── README-Material-Complementario-Unidad-04.ipynb
+│       ├── 02-Practica-Monitoreo-Modelos-MLflow.ipynb
+│       └── (3 módulos: MLflow, CI/CD, Arquitecturas Avanzadas)
 │
-└── Material-Complementario/                          ⭐ NUEVO
-    ├── 01-Optimizacion-Hiperparametros/              ✅ COMPLETO
-    │   ├── Teoría - Optimización de Hiperparámetros con Optuna.ipynb
-    │   └── Práctica - Optimización con Optuna.ipynb
-    ├── 02-Validacion-Cruzada-Avanzada/               📅 Planificado
-    ├── 03-Seleccion-Caracteristicas/                 📅 Planificado
-    ├── 04-Interpretabilidad-Modelos/                 📅 Planificado
-    ├── 05-AutoML-y-Feature-Store/                    📅 Planificado
-    └── 06-MLflow-Tracking/                           📅 Planificado
+├── 05 - Datasets/
+│   ├── productos.csv           (45 productos)
+│   ├── clientes.csv            (500 clientes con geolocalización)
+│   ├── sucursales.csv          (3 sucursales)
+│   ├── ventas.csv              (55,986 transacciones)
+│   └── detalles_ventas.csv     (113,523 líneas de detalle)
+│
+└── 06 - Material-Avanzado/
+    └── README.md               (temas avanzados adicionales)
 ```
 
 ---
 
-## 🎯 Material Complementario (Nuevo)
+## 🎯 Material Complementario Avanzado
 
-Sección dedicada a **temas avanzados** que profundizan conceptos del curso principal. Cada módulo incluye:
+Cada unidad incluye una sección **03 - Material-Complementario** con temas avanzados opcionales:
+
+* **Unidad 1**: Módulos avanzados de análisis de datos
+* **Unidad 2**: 4 módulos (Plotly, Dashboards, Storytelling, Geoespacial)
+* **Unidad 3**: 4 módulos (Ensemble Methods, Redes Neuronales, Series Temporales, NLP)
+* **Unidad 4**: 4 módulos (MLflow, Monitoreo, CI/CD, Arquitecturas Avanzadas)
+
+Cada módulo incluye:
 - 📖 **Notebook de Teoría**: Conceptos, comparaciones, mejores prácticas
 - 💻 **Notebook Práctico**: Ejercicios resueltos con el dataset de la panadería
+- ✅ **README**: Índice completo del material de cada unidad
 
-### ✅ Módulos Disponibles
-
-#### 01. Optimización de Hiperparámetros con Optuna
-**Estado**: ✅ Completo (2 notebooks, 31 celdas)
-
-**Contenido teórico**:
-- Diferencia entre parámetros e hiperparámetros
-- Métodos tradicionales: Grid Search y Random Search
-- Introducción a Optuna (búsqueda bayesiana con TPE)
-- Técnicas avanzadas: Pruning automático, paralelización, persistencia
-- Visualizaciones de optimización (historia, importancia, slice plots)
-- Mejores prácticas y casos de uso
-
-**Contenido práctico**:
-- Ejercicio 1: Optimizar Gradient Boosting Regressor
-- Ejercicio 2: Optimización multi-objetivo (precisión vs. velocidad)
-- Ejercicio 3: Persistencia en base de datos SQLite
-- Ejercicio 4: Optimización con features geoespaciales H3
-- Comparación de resultados entre modelos
-- Feature importance con datos espaciales
-
-**Por qué es importante**:
-- Mejora significativa en rendimiento de modelos ML
-- Ahorro de tiempo vs. métodos tradicionales
-- Integración con contenido geoespacial H3 del curso
-- Preparación para workflows profesionales de ML
-
----
-
-### 📅 Módulos Planificados
-
-#### 02. Validación Cruzada Avanzada
-- Stratified K-Fold para datos desbalanceados
-- Time Series Cross-Validation
-- Group K-Fold (evitar data leakage)
-- Leave-One-Out CV
-- Validación espacial (split por zonas geográficas)
-
-#### 03. Selección de Características
-- Filter methods (correlación, chi-squared, mutual information)
-- Wrapper methods (RFE - Recursive Feature Elimination)
-- Embedded methods (Lasso, Ridge, feature importance)
-- SHAP values para selección
-- Selección con features espaciales
-
-#### 04. Interpretabilidad de Modelos
-- SHAP (SHapley Additive exPlanations)
-- LIME (Local Interpretable Model-agnostic Explanations)
-- Partial Dependence Plots (PDP)
-- Feature Importance global y local
-- Interpretabilidad de features espaciales
-
-#### 05. AutoML y Feature Store
-- AutoML con H2O.ai
-- AutoML con PyCaret
-- Databricks Feature Store
-- Feature engineering automatizado
-- MLflow integration para tracking
-
-#### 06. MLflow Tracking y Model Registry
-- Logging de experimentos y métricas
-- Comparación de runs
-- Model Registry de Databricks
-- Versionamiento de modelos
-- Deployment y A/B testing
+**Consultar los archivos README-Material-Complementario-Unidad-XX.ipynb** en cada unidad para el índice completo de módulos y contenido detallado.
 
 ---
 
@@ -138,11 +131,12 @@ Sección dedicada a **temas avanzados** que profundizan conceptos del curso prin
 - Ciclo de vida de proyectos de datos
 - Mejores prácticas: documentación, performance, reproducibilidad
 
-**Práctico (TP01):**
-- Introducción a Databricks workspace
-- Carga y exploración de datos
-- Análisis exploratorio con Pandas y PySpark
-- Consultas SQL básicas
+**Prácticos:**
+- **TP01 - Configuración Cloud y Almacenamiento**: Setup de entorno, exploración de estructura, configuración de rutas portables, introducción a pathlib
+- **TP02 - Análisis Exploratorio y Limpieza**: Carga de datos, análisis exploratorio con Pandas y PySpark, limpieza y transformaciones básicas
+
+**Material Complementario:**
+- Módulos avanzados opcionales (consultar README de la unidad)
 
 ---
 
@@ -156,11 +150,15 @@ Sección dedicada a **temas avanzados** que profundizan conceptos del curso prin
 - Mejores prácticas de diseño visual
 - Data storytelling
 
-**Prácticos (TP02-TP06):**
-- Visualizaciones exploratorias
-- Gráficos comparativos y de tendencias
-- Dashboards interactivos
-- Presentaciones con storytelling
+**Prácticos:**
+- **TP03 - Perfilado de Datos**: Análisis de calidad de datos, distribuciones, valores faltantes, outliers, correlaciones, visualizaciones exploratorias con Matplotlib y Seaborn
+- **TP04 - Agregaciones y Geoespacial**: Agregaciones avanzadas, funciones de ventana, análisis geoespacial con H3 (Uber's Hexagonal Hierarchical Spatial Index)
+
+**Material Complementario:**
+- **Módulo 01**: Visualizaciones Interactivas con Plotly (scatter, line, bar, heatmap, subplots, animaciones)
+- **Módulo 02**: Dashboards Profesionales con Dash
+- **Módulo 03**: Data Storytelling Avanzado
+- **Módulo 04**: Visualización Geoespacial Avanzada
 
 ---
 
@@ -171,12 +169,17 @@ Sección dedicada a **temas avanzados** que profundizan conceptos del curso prin
 - Feature engineering (temporal, encoding, scaling, interactions)
 - Workflows de Machine Learning en Databricks
 - Métricas de evaluación de modelos
+- MLflow para tracking y experimentos
 
-**Prácticos (TP03-TP06):**
-- Transformaciones avanzadas con Delta Lake
-- Feature engineering para ML
-- Entrenamiento y evaluación de modelos
-- Despliegue de modelos predictivos
+**Prácticos:**
+- **TP05 - Estructuración y Agregación**: Creación de tablas Delta, agregaciones complejas con groupBy y agg, funciones de ventana (window functions), análisis geoespacial con H3
+- **TP06 - Feature Engineering y ML**: Feature engineering temporal, codificación de variables categóricas, escalado, entrenamiento de modelos, evaluación, MLflow tracking
+
+**Material Complementario:**
+- **Módulo 01**: Ensemble Methods Avanzados (Random Forest, XGBoost, LightGBM, Stacking, SHAP)
+- **Módulo 02**: Redes Neuronales con TensorFlow/Keras
+- **Módulo 03**: Series Temporales (ARIMA, Prophet, LSTM)
+- **Módulo 04**: Procesamiento de Lenguaje Natural (NLP)
 
 ---
 
@@ -189,23 +192,86 @@ Sección dedicada a **temas avanzados** que profundizan conceptos del curso prin
 - Dashboards ejecutivos
 - Documentación y presentación profesional
 - Mejores prácticas de producción
+- MLflow para producción
 
-**Prácticos (TP07-TP08):**
-- **TP07 - Pipeline Integrador**: Implementación completa Bronze → Silver → Gold
-- **TP08 - Proyecto Final**: Análisis end-to-end con recomendaciones de negocio
+**Prácticos:**
+- **TP07 - Pipeline Bronze-Silver-Gold**: Implementación completa de arquitectura Medallion, capa Bronze (ingesta cruda), capa Silver (limpieza y estructuración), capa Gold (agregaciones y features para analytics/ML)
+- **TP08 - Proyecto Final Integrador**: Análisis end-to-end completo, desde ingesta hasta modelo predictivo, dashboards ejecutivos, documentación profesional, recomendaciones de negocio
+
+**Material Complementario:**
+- **Módulo 01**: MLflow Avanzado (tracking, registry, deployment)
+- **Módulo 02**: Monitoreo de Modelos en Producción (MLflow practice incluido)
+- **Módulo 03**: CI/CD para Data Science
+- **Módulo 04**: Arquitecturas de ML Avanzadas
 
 ---
 
 ## 🛠️ Tecnologías
 
-- **Plataforma**: Databricks Community Edition / Databricks Free Edition
-- **Lenguajes**: Python (PySpark), SQL, Markdown
-- **Librerías principales**:
-  - PySpark (análisis distribuido)
-  - Pandas (análisis en memoria)
-  - Matplotlib & Seaborn (visualización)
-  - MLlib (machine learning)
-  - Delta Lake (almacenamiento ACID)
+### Plataforma
+- **Databricks Free Edition** (anteriormente Community Edition)
+- Notebooks Jupyter en la nube
+- Compute clusters serverless y configurables
+
+### Lenguajes
+- **Python**: PySpark para procesamiento distribuido, Pandas para análisis local
+- **SQL**: Databricks SQL para consultas y Delta Lake
+- **Markdown**: Documentación y narrativa en notebooks
+
+### Librerías y Frameworks
+
+**Análisis de Datos:**
+- PySpark (procesamiento distribuido)
+- Pandas (análisis en memoria)
+- NumPy (operaciones numéricas)
+- Delta Lake (almacenamiento ACID, time travel)
+
+**Visualización:**
+- Matplotlib & Seaborn (visualizaciones estáticas)
+- Plotly (visualizaciones interactivas)
+- Databricks SQL Dashboards
+
+**Machine Learning:**
+- Scikit-learn (modelos clásicos)
+- MLlib (ML distribuido en Spark)
+- XGBoost, LightGBM (ensemble methods)
+- TensorFlow/Keras (deep learning - material complementario)
+- MLflow (tracking, registry, deployment)
+
+**Geoespacial:**
+- H3 (Uber's Hexagonal Hierarchical Spatial Index)
+- Folium (mapas interactivos)
+
+---
+
+## 📝 Requisitos Previos
+
+### Conocimientos Recomendados
+
+✅ **Básicos (Esenciales)**:
+- Python básico (variables, funciones, estructuras de control)
+- SQL básico (SELECT, WHERE, JOIN, GROUP BY)
+- Conceptos de estadística descriptiva
+
+🔸 **Intermedios (Recomendados)**:
+- Pandas para análisis de datos
+- Visualización con Matplotlib/Seaborn
+- Conceptos de Machine Learning (opcional para las primeras unidades)
+
+### Requisitos Técnicos
+
+* Cuenta en [Databricks Free Edition](https://www.databricks.com/try-databricks)
+* Navegador web moderno (Chrome, Firefox, Edge, Safari)
+* Sin necesidad de instalación local (todo corre en la nube)
+
+### Tiempo de Dedicación
+
+| Material | Tiempo Estimado |
+|----------|----------------|
+| Curso principal (4 unidades) | 40-50 horas |
+| Material complementario opcional | 20-30 horas |
+| Proyecto final | 10-15 horas |
+| **Total** | **60-80 horas** |
 
 ---
 
@@ -238,20 +304,41 @@ Sección dedicada a **temas avanzados** que profundizan conceptos del curso prin
 ---
 
 
-## 📊 Dataset Principal
+## 📊 Dataset Principal: Panadería
 
-El proyecto utiliza un **dataset realista de ventas de panadería** que incluye:
-- Transacciones de clientes
-- Información de productos
-- Datos temporales (fechas, horas, estacionalidad)
-- Variables categóricas y numéricas
+El proyecto utiliza un **dataset realista de ventas de panadería** ubicado en `05 - Datasets/`, que incluye 5 archivos CSV:
 
-Ideal para aprender:
-- ETL y limpieza de datos
-- Feature engineering
-- Análisis de series temporales
-- Modelos predictivos (forecasting, segmentación)
-- Dashboards de negocio
+### Archivos de Datos
+
+1. **productos.csv** (45 productos)
+   - Información de catálogo: producto_id, nombre, categoría, precios, costos, márgenes
+   - Categorías: Panadería, Pastelería, Bebidas, Tortas, Snacks
+   
+2. **clientes.csv** (500 clientes)
+   - Datos de clientes: cliente_id, nombre, email, teléfono
+   - **Geolocalización**: latitud, longitud, índice H3 (hexagonal spatial index)
+   - Datos de comportamiento: preferencia_categoría, es_vip
+   
+3. **sucursales.csv** (3 sucursales)
+   - Información de locales: sucursal_id, nombre, dirección
+   - Geolocalización: latitud, longitud, ciudad
+   
+4. **ventas.csv** (55,986 transacciones)
+   - Cabecera de ventas: venta_id, fecha, hora, sucursal_id, cliente_id, total
+   - Año completo de datos (2024), permite análisis de series temporales
+   
+5. **detalles_ventas.csv** (113,523 líneas de detalle)
+   - Líneas de venta: venta_id, producto_id, cantidad, precio_unitario, descuento, subtotal
+   - Relación 1:N con ventas (promedio ~2 productos por transacción)
+
+### Casos de Uso Ideales
+
+✅ **ETL y Arquitectura Medallion**: Bronze → Silver → Gold  
+✅ **Feature Engineering**: Variables temporales, espaciales, agregaciones  
+✅ **Análisis Geoespacial**: Clustering con H3, zonas de alta facturación  
+✅ **Series Temporales**: Forecasting de ventas, estacionalidad  
+✅ **Machine Learning**: Modelos de regresión, clasificación, segmentación  
+✅ **Dashboards de Negocio**: Visualizaciones ejecutivas, KPIs  
 
 ---
 
@@ -275,6 +362,36 @@ Todos los notebooks de teoría están en formato **Jupyter Notebook estándar (`
 - ✅ Compatibilidad con Jupyter, VS Code, Google Colab
 - ✅ Versionamiento limpio en Git
 - ✅ Visualización de markdown, código y outputs
+
+---
+
+## ❓ Preguntas Frecuentes (FAQ)
+
+### 👤 **¿Puedo usar este material si no soy estudiante de la UDA?**
+Sí, el material es de acceso libre para fines académicos. Solo solicitamos mencionar la fuente.
+
+### 💻 **¿Necesito instalar algo en mi computadora?**
+No. Todo el curso se ejecuta en Databricks en la nube. Solo necesitas un navegador web y una cuenta gratuita en Databricks.
+
+### 💰 **¿El curso tiene algún costo?**
+No. El material educativo es gratuito y la plataforma Databricks Free Edition también es gratuita.
+
+### 📅 **¿En qué orden debo estudiar el material?**
+Sigue el orden numérico: Unidad 1 → 2 → 3 → 4. Dentro de cada unidad: Teoría → Prácticos → Material Complementario (opcional).
+
+### ⌛ **¿Cuánto tiempo toma completar el curso?**
+- Curso principal (TP01-TP08): 40-50 horas
+- Material complementario: 20-30 horas adicionales (opcional)
+- Total: 60-80 horas
+
+### 🌎 **¿Puedo usar los notebooks con otros datasets?**
+Sí, pero necesitarás adaptar las rutas y esquemas de datos. Los notebooks están diseñados para ser portables y bien documentados para facilitar la adaptación.
+
+### 👥 **¿Hay un foro o comunidad para hacer preguntas?**
+Para estudiantes de la UDA, consultar con los docentes. Para otros usuarios, pueden abrir issues en el repositorio de GitHub.
+
+### 📂 **¿Puedo contribuir al repositorio?**
+Sí. Pull requests con correcciones, mejoras o contenido adicional son bienvenidos.
 
 ---
 
