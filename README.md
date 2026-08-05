@@ -103,19 +103,117 @@ Laboratorio/
 
 ## 🎯 Material Complementario Avanzado
 
-Cada unidad incluye una sección **03 - Material-Complementario** con temas avanzados opcionales:
+Cada unidad incluye una sección **03 - Material-Complementario** con temas avanzados opcionales que expanden los conceptos del curso principal.
 
-* **Unidad 1**: Módulos avanzados de análisis de datos
-* **Unidad 2**: 4 módulos (Plotly, Dashboards, Storytelling, Geoespacial)
-* **Unidad 3**: 4 módulos (Ensemble Methods, Redes Neuronales, Series Temporales, NLP)
-* **Unidad 4**: 4 módulos (MLflow, Monitoreo, CI/CD, Arquitecturas Avanzadas)
+### 📋 Formato de los Módulos
 
-Cada módulo incluye:
-- 📖 **Notebook de Teoría**: Conceptos, comparaciones, mejores prácticas
-- 💻 **Notebook Práctico**: Ejercicios resueltos con el dataset de la panadería
-- ✅ **README**: Índice completo del material de cada unidad
+Cada módulo complementario incluye:
+- 📖 **Notebook de Teoría**: Fundamentos conceptuales, comparaciones, casos de uso, mejores prácticas
+- 💻 **Notebook Práctico**: Ejercicios resueltos aplicados al dataset de la panadería
+- ⏱️ **Duración**: 2-4 horas por módulo (teoría + práctica)
+- 🎯 **Nivel**: Intermedio a Avanzado
 
-**Consultar los archivos README-Material-Complementario-Unidad-XX.ipynb** en cada unidad para el índice completo de módulos y contenido detallado.
+### 📚 Módulos por Unidad
+
+#### Unidad 1: Análisis de Datos
+
+**Módulos opcionales disponibles** (consultar README de la unidad para lista completa)
+
+---
+
+#### Unidad 2: Visualización de Datos (4 módulos)
+
+**Módulo 01: Visualizaciones Interactivas con Plotly**
+- **Contenido**: Introducción a Plotly, gráficos básicos (scatter, line, bar, heatmap), subplots, gráficos 3D, animaciones, personalización avanzada
+- **Técnicas**: Express vs Graph Objects, theming, configuración de ejes, leyendas, tooltips interactivos
+- **Proyecto práctico**: Dashboard interactivo de ventas con filtros dinámicos
+- **Duración**: 3-4 horas
+
+**Módulo 02: Mapas y Visualización Geoespacial**
+- **Contenido**: Folium para mapas interactivos, capas de mapas, marcadores, círculos, heatmaps geoespaciales, integración con H3
+- **Técnicas**: TileLayer personalizado, cluster markers, choropleth maps, análisis de densidad espacial
+- **Proyecto práctico**: Mapa interactivo de sucursales con zonas de influencia y hotspots de clientes
+- **Duración**: 3 horas
+
+**Módulo 03: Storytelling con Datos**
+- **Contenido**: Principios de narrativa con datos, estructura de presentaciones, diseño de slides con datos, dashboards narrativos
+- **Técnicas**: Pirámide invertida, data-ink ratio, progresión de complejidad, contexto y conclusión
+- **Proyecto práctico**: Presentación ejecutiva de análisis de ventas
+- **Duración**: 2-3 horas
+
+**Módulo 04: Dashboards Profesionales**
+- **Contenido**: Diseño de dashboards efectivos, layout y composición, KPIs y métricas clave, actualización en tiempo real
+- **Técnicas**: Grid layouts, widget design, color schemes profesionales, responsive design
+- **Proyecto práctico**: Dashboard ejecutivo completo de la panadería
+- **Duración**: 4 horas
+
+---
+
+#### Unidad 3: Modelado de Datos (4 módulos)
+
+**Módulo 01: Ensemble Methods Avanzados**
+- **Contenido**: Random Forest profundo, XGBoost, LightGBM, CatBoost, Stacking, Blending, Voting Classifiers
+- **Técnicas**: Hyperparameter tuning avanzado, feature importance, SHAP values para interpretabilidad
+- **Proyecto práctico**: Modelo ensemble para predicción de ventas con interpretabilidad SHAP
+- **Duración**: 4 horas
+
+**Módulo 02: Redes Neuronales con TensorFlow/Keras**
+- **Contenido**: Perceptrones, redes fully-connected, arquitecturas profundas, regularización (Dropout, L1/L2), optimizadores (Adam, RMSprop), callbacks
+- **Técnicas**: Data preprocessing para DL, batch training, early stopping, learning rate scheduling
+- **Proyecto práctico**: Red neuronal para clasificación de productos por categoría
+- **Duración**: 5 horas
+
+**Módulo 03: Detección de Anomalías**
+- **Contenido**: Isolation Forest, One-Class SVM, Local Outlier Factor, análisis estadístico de outliers, AutoEncoders
+- **Técnicas**: Feature scaling para anomaly detection, umbral de decisión, interpretación de scores
+- **Proyecto práctico**: Detección de transacciones fraudulentas en ventas
+- **Duración**: 3 horas
+
+**Módulo 04: Modelos de Series Temporales**
+- **Contenido**: ARIMA, SARIMA, Prophet (Facebook), LSTM para series temporales, descomposición de series
+- **Técnicas**: Stationarity tests, seasonal decomposition, cross-validation temporal, forecasting con incertidumbre
+- **Proyecto práctico**: Forecasting de ventas diarias con estacionalidad
+- **Duración**: 4-5 horas
+
+---
+
+#### Unidad 4: Proyectos Integradores (4 módulos)
+
+**Módulo 01: MLOps y CI/CD para ML**
+- **Contenido**: MLflow tracking avanzado, MLflow Model Registry, deployment de modelos, versionado de datasets, pipelines CI/CD
+- **Técnicas**: Automatización de experimentos, registro de artifacts, staging/production workflow
+- **Proyecto práctico**: Pipeline automático de reentrenamiento de modelo
+- **Duración**: 4 horas
+
+**Módulo 02: Monitoreo de Modelos en Producción**
+- **Contenido**: Model drift detection, data drift, performance monitoring, alerting, reentrenamiento automático
+- **Técnicas**: Statistical tests (KS test, PSI), distributional shift, logging de inferencias, dashboards de monitoreo
+- **Proyecto práctico**: Sistema de monitoreo para modelo de ventas con MLflow
+- **Duración**: 3-4 horas
+
+**Módulo 03: A/B Testing y Experimentación**
+- **Contenido**: Diseño de experimentos, pruebas de hipótesis, análisis de significancia estadística, tamaño de muestra
+- **Técnicas**: Randomización, control groups, métricas de éxito, causal inference básico
+- **Proyecto práctico**: A/B test de estrategias de descuento en ventas
+- **Duración**: 3 horas
+
+**Módulo 04: Arquitecturas de ML End-to-End**
+- **Contenido**: Feature stores, batch vs real-time inference, microservicios de ML, lakehouse architecture completa
+- **Técnicas**: REST APIs para modelos, caching de features, model serving patterns
+- **Proyecto práctico**: Arquitectura completa de recomendación de productos
+- **Duración**: 5 horas
+
+---
+
+### 🎓 Cómo Usar el Material Complementario
+
+1. **Opcionalidad**: No es necesario completar todos los módulos para aprobar el curso principal
+2. **Orden flexible**: Puedes elegir los módulos que más te interesen
+3. **Prerrequisitos**: Se recomienda completar la unidad base antes de su material complementario
+4. **Integración**: Muchos módulos son referenciados en el Proyecto Final (TP08)
+5. **Profundidad**: Cada módulo es autocontenido y puede estudiarse independientemente
+
+**Consultar los archivos README-Material-Complementario-Unidad-XX.ipynb** en cada unidad para el índice completo de módulos y contenido detallado específico.
 
 ---
 
